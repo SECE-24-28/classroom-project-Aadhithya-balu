@@ -1,0 +1,13 @@
+/* Small custom tweaks for the Tailwind clone */
+html,body { height: 100%; }
+.shadow-2xl { box-shadow: 0 25px 50px -12px rgba(2,6,23,0.15); }
+.rounded-2xl { border-radius: 18px; }
+.rounded-xl { border-radius: 12px; }
+
+/* subtle border around image tiles */
+.tile-border { box-shadow: 0 8px 24px rgba(2,6,23,0.06); border: 6px solid rgba(255,255,255,0.8); }
+
+/* responsive font adjustments */
+@media (max-width: 640px) {
+  h1 { font-size: 2rem; }
+}

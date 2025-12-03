@@ -1,0 +1,40 @@
+/*#demo{
+    background-color: blue;
+    color:rgb(255, 243, 224);
+    text-align : center;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}*/
+.container{
+    background-color: rgb(255, 205, 205);
+    height: 90vh;
+    border: 3px solid rosybrown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /*flex-direction: row-reverse;*/
+    /*align-content:center;*/
+    flex-flow: column wrap;/*flex-flow: flex-direction flex-wrap;*/
+}
+.box{
+    height: 20vh;
+    width: 10vw;
+    background-color: coral;
+    color:cornsilk;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/*#b3{
+    order: -1;
+    flex-grow: 3;
+    flex-shrink: 2;
+    align-self: flex-end;
+}*/
